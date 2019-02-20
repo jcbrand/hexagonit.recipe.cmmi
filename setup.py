@@ -6,7 +6,7 @@ name = 'hexagonit.recipe.cmmi'
 
 
 def read(*rnames):
-    return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
+    return open(os.path.join(os.path.dirname(__file__), *rnames), encoding="utf8").read()
 
 
 setup(
